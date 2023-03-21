@@ -1,7 +1,7 @@
 # Tetris-Game
 I made the tutorial of: https://github.com/StanislavPetrovV
 I made this from my technical school.
-I sow your video tutorial: https://www.youtube.com/watch?v=7kGNs5R-AM8
+I saw your video tutorial: https://www.youtube.com/watch?v=7kGNs5R-AM8
 
 This is just a tetris game in python and you can play using the arrows of the keyboard, hope you fun!
 
