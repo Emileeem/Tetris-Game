@@ -2,7 +2,7 @@ import pygame as pg
 
 vec = pg.math.Vector2
 
-FPS = 45 #fps ao decorrer do jogo
+FPS = 60 #fps ao decorrer do jogo
 FIELD_COLOR = (255,182,193) #cor do fundo das grades
 BG_COLOR = (176,224,230) # cor da tela do tetris ao lado
 
@@ -31,5 +31,9 @@ TETROMINOES = {
     'L': [(0, 0), (1, 0), (0, -1), (0, -2)],
     'I': [(0, 0), (0, 1), (0, -1), (0, -2)],
     'S': [(0, 0), (-1, 0), (0, -1), (1, -1)],
-    'Z': [(0, 0), (1, 0), (0, -1), (-1, -1)]
+    'Z': [(0, 0), (1, 0), (0, -1), (-1, -1)],
+    'NX': [(0, 0), (0, 1),(0, 2), (0, -1), (0, -3), (0, -2)],
+    'MAIS': [(0,0), (0, 1), (0, -1), (-1, 0), (1, 0)],
+    'DOT': [(0,0)],
+    'MENOS': [(0,0), (1,0)]
 }

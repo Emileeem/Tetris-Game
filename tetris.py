@@ -39,7 +39,7 @@ class Tetris: #o tetris jogo e suas informações, não os blocos
 
         self.score = 0
         self.full_lines = 0
-        self.points_per_lines = {0: 0, 1: 100, 2: 300, 3: 700, 4: 1500}
+        self.points_per_lines = {0: 0, 1: 100, 2: 300, 3: 700, 4: 1500, 5:2300, 6:3000}
 
     def get_score(self): #pontuação dentro do jogo
         self.score += self.points_per_lines[self.full_lines]
